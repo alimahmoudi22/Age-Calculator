@@ -15,4 +15,68 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    line-height: 1.3;
+}
+.card{
+    background-color: rgba(255, 160, 101, 0.5);
+    width: 55rem;
+    height: 50rem;
+    border-radius: 1rem;
+    padding: 4rem;
+}
+.main-card{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 6rem;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 4rem;
+    color: rgb(65, 51, 43);
+    margin-top: 4rem;
+}
+.title span{
+    color: #ffffff;
+    text-shadow: .1em .1em 0 hsl(0, 50%, 30%);
+}
+.input-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 1rem;
+}
+.input-box input{
+    width: 33rem;
+    outline: none;
+    border: none;
+    height: 5rem;
+    border-radius: .5rem;
+    padding: 0 1.4rem;
+    font-size: 2rem;
+}
+.btn{
+    outline: none;
+    border: none;
+    height: 5rem;
+    border-radius: .5rem;
+    background-color: hsl(0, 50%, 30%);
+    color: #FFF;
+    padding: 0 3rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.result{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+    color: #FFF;
+    font-weight: 600;
+}
+.result span{
+    color: rgb(65, 51, 43);
+    font-size: 2.8rem;
 }
